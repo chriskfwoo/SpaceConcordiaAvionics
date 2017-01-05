@@ -46,7 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XbeeListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GUI.form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XbeeListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/XbeeListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-90">
@@ -90,11 +97,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.form" />
         <option value="$PROJECT_DIR$/src/SpaceConcordiaAvionics/GraphGUI.java" />
         <option value="$PROJECT_DIR$/src/SpaceConcordiaAvionics/XbeeListener.java" />
         <option value="$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.java" />
         <option value="$PROJECT_DIR$/src/SpaceConcordiaAvionics/Driver.java" />
+        <option value="$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.form" />
       </list>
     </option>
   </component>
@@ -714,17 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-7595">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -735,14 +731,6 @@
             <element signature="e#769#770#0" expanded="true" />
             <marker date="1482311408382" expanded="true" signature="1107:1176" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/GraphGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,6 +753,25 @@
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/GraphGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceConcordiaAvionics/GUI.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-7595">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
