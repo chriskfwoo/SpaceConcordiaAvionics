@@ -1,1 +1,1 @@
-# Space Concordia Rocketry Groundstation
+# Space Concordia Rocketry Ground Station
