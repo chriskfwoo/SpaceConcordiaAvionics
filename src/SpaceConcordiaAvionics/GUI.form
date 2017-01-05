@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SpaceConcordiaAvionics.GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1294" height="1161"/>
+    </constraints>
+    <properties>
+      <background color="-657957"/>
+      <font name="Monospaced"/>
+      <foreground color="-1122942"/>
+    </properties>
+    <border type="bevel-raised">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <grid id="1082c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="38a63" binding="southPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-657957"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3f32a" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="85da" class="javax.swing.JLabel" binding="logoLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="5527c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="35" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="f8501" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="35" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="53f12" binding="headerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="15" left="0" bottom="15" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-8388608"/>
+        </properties>
+        <border type="bevel-raised">
+          <font/>
+        </border>
+        <children>
+          <component id="feee9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1122942"/>
+              <font name="Monospaced" size="42" style="1"/>
+              <foreground color="-131080"/>
+              <text value="Space Concordia"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c5995" binding="dataPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="426f2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-657957"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="4d3ee" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="75"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-657957"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="5934e" layout-manager="GridLayoutManager" row-count="11" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="25" left="25" bottom="25" right="50"/>
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-657957"/>
+                  <foreground color="-16777216"/>
+                </properties>
+                <border type="bevel-lowered">
+                  <font/>
+                  <title-color color="-16777216"/>
+                </border>
+                <children>
+                  <component id="6373" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="GPS Latitude:"/>
+                    </properties>
+                  </component>
+                  <component id="21ab3" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="GPS Longitude:"/>
+                    </properties>
+                  </component>
+                  <component id="2925c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Acceleration X:"/>
+                    </properties>
+                  </component>
+                  <component id="74ee" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Acceleration Y:"/>
+                    </properties>
+                  </component>
+                  <component id="8b5d2" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Acceleration Z:"/>
+                    </properties>
+                  </component>
+                  <component id="e4ca1" class="javax.swing.JLabel" binding="accelXLabel">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="e2611" class="javax.swing.JLabel" binding="accelYLabel">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="2df2" class="javax.swing.JLabel" binding="accelZLabel">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="42636" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Altitude:"/>
+                    </properties>
+                  </component>
+                  <component id="f59fc" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Gyroscope X:"/>
+                    </properties>
+                  </component>
+                  <component id="9fad6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Gyroscope Y:"/>
+                    </properties>
+                  </component>
+                  <component id="dbb0" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Gyroscope Z:"/>
+                    </properties>
+                  </component>
+                  <component id="9032e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Wind Velocity:"/>
+                    </properties>
+                  </component>
+                  <component id="e7e1" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="Fin Strain:"/>
+                    </properties>
+                  </component>
+                  <component id="4b0a8" class="javax.swing.JLabel" binding="altitudeLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="194ef" class="javax.swing.JLabel" binding="latitudeLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="f02f0" class="javax.swing.JLabel" binding="longitudeLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="6e183" class="javax.swing.JLabel" binding="gyroXLabel">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="abb67" class="javax.swing.JLabel" binding="gyroYLabel">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="a1916" class="javax.swing.JLabel" binding="gyroZLabel">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="6adaa" class="javax.swing.JLabel" binding="windVelocityLabel">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                  <component id="26c94" class="javax.swing.JLabel" binding="finStrainLabel">
+                    <constraints>
+                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Monospaced" size="18"/>
+                      <text value="null"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ebe0e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-657957"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
